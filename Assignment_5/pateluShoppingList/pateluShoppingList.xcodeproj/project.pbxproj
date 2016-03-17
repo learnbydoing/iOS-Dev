@@ -1,0 +1,505 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		79F88FC81C663E8400A6D590 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79F88FC71C663E8400A6D590 /* AppDelegate.swift */; };
+		79F88FCA1C663E8400A6D590 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79F88FC91C663E8400A6D590 /* ViewController.swift */; };
+		79F88FCD1C663E8400A6D590 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 79F88FCB1C663E8400A6D590 /* Main.storyboard */; };
+		79F88FCF1C663E8400A6D590 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 79F88FCE1C663E8400A6D590 /* Assets.xcassets */; };
+		79F88FD21C663E8400A6D590 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 79F88FD01C663E8400A6D590 /* LaunchScreen.storyboard */; };
+		79F88FDD1C663E8400A6D590 /* pateluShoppingListTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79F88FDC1C663E8400A6D590 /* pateluShoppingListTests.swift */; };
+		79F88FE81C663E8400A6D590 /* pateluShoppingListUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79F88FE71C663E8400A6D590 /* pateluShoppingListUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		79F88FD91C663E8400A6D590 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 79F88FBC1C663E8400A6D590 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 79F88FC31C663E8400A6D590;
+			remoteInfo = pateluShoppingList;
+		};
+		79F88FE41C663E8400A6D590 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 79F88FBC1C663E8400A6D590 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 79F88FC31C663E8400A6D590;
+			remoteInfo = pateluShoppingList;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		79F88FC41C663E8400A6D590 /* pateluShoppingList.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = pateluShoppingList.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		79F88FC71C663E8400A6D590 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		79F88FC91C663E8400A6D590 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		79F88FCC1C663E8400A6D590 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		79F88FCE1C663E8400A6D590 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		79F88FD11C663E8400A6D590 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		79F88FD31C663E8400A6D590 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		79F88FD81C663E8400A6D590 /* pateluShoppingListTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = pateluShoppingListTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		79F88FDC1C663E8400A6D590 /* pateluShoppingListTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = pateluShoppingListTests.swift; sourceTree = "<group>"; };
+		79F88FDE1C663E8400A6D590 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		79F88FE31C663E8400A6D590 /* pateluShoppingListUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = pateluShoppingListUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		79F88FE71C663E8400A6D590 /* pateluShoppingListUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = pateluShoppingListUITests.swift; sourceTree = "<group>"; };
+		79F88FE91C663E8400A6D590 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		79F88FC11C663E8400A6D590 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		79F88FD51C663E8400A6D590 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		79F88FE01C663E8400A6D590 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		79F88FBB1C663E8400A6D590 = {
+			isa = PBXGroup;
+			children = (
+				79F88FC61C663E8400A6D590 /* pateluShoppingList */,
+				79F88FDB1C663E8400A6D590 /* pateluShoppingListTests */,
+				79F88FE61C663E8400A6D590 /* pateluShoppingListUITests */,
+				79F88FC51C663E8400A6D590 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		79F88FC51C663E8400A6D590 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				79F88FC41C663E8400A6D590 /* pateluShoppingList.app */,
+				79F88FD81C663E8400A6D590 /* pateluShoppingListTests.xctest */,
+				79F88FE31C663E8400A6D590 /* pateluShoppingListUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		79F88FC61C663E8400A6D590 /* pateluShoppingList */ = {
+			isa = PBXGroup;
+			children = (
+				79F88FC71C663E8400A6D590 /* AppDelegate.swift */,
+				79F88FC91C663E8400A6D590 /* ViewController.swift */,
+				79F88FCB1C663E8400A6D590 /* Main.storyboard */,
+				79F88FCE1C663E8400A6D590 /* Assets.xcassets */,
+				79F88FD01C663E8400A6D590 /* LaunchScreen.storyboard */,
+				79F88FD31C663E8400A6D590 /* Info.plist */,
+			);
+			path = pateluShoppingList;
+			sourceTree = "<group>";
+		};
+		79F88FDB1C663E8400A6D590 /* pateluShoppingListTests */ = {
+			isa = PBXGroup;
+			children = (
+				79F88FDC1C663E8400A6D590 /* pateluShoppingListTests.swift */,
+				79F88FDE1C663E8400A6D590 /* Info.plist */,
+			);
+			path = pateluShoppingListTests;
+			sourceTree = "<group>";
+		};
+		79F88FE61C663E8400A6D590 /* pateluShoppingListUITests */ = {
+			isa = PBXGroup;
+			children = (
+				79F88FE71C663E8400A6D590 /* pateluShoppingListUITests.swift */,
+				79F88FE91C663E8400A6D590 /* Info.plist */,
+			);
+			path = pateluShoppingListUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		79F88FC31C663E8400A6D590 /* pateluShoppingList */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 79F88FEC1C663E8400A6D590 /* Build configuration list for PBXNativeTarget "pateluShoppingList" */;
+			buildPhases = (
+				79F88FC01C663E8400A6D590 /* Sources */,
+				79F88FC11C663E8400A6D590 /* Frameworks */,
+				79F88FC21C663E8400A6D590 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = pateluShoppingList;
+			productName = pateluShoppingList;
+			productReference = 79F88FC41C663E8400A6D590 /* pateluShoppingList.app */;
+			productType = "com.apple.product-type.application";
+		};
+		79F88FD71C663E8400A6D590 /* pateluShoppingListTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 79F88FEF1C663E8400A6D590 /* Build configuration list for PBXNativeTarget "pateluShoppingListTests" */;
+			buildPhases = (
+				79F88FD41C663E8400A6D590 /* Sources */,
+				79F88FD51C663E8400A6D590 /* Frameworks */,
+				79F88FD61C663E8400A6D590 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				79F88FDA1C663E8400A6D590 /* PBXTargetDependency */,
+			);
+			name = pateluShoppingListTests;
+			productName = pateluShoppingListTests;
+			productReference = 79F88FD81C663E8400A6D590 /* pateluShoppingListTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		79F88FE21C663E8400A6D590 /* pateluShoppingListUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 79F88FF21C663E8400A6D590 /* Build configuration list for PBXNativeTarget "pateluShoppingListUITests" */;
+			buildPhases = (
+				79F88FDF1C663E8400A6D590 /* Sources */,
+				79F88FE01C663E8400A6D590 /* Frameworks */,
+				79F88FE11C663E8400A6D590 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				79F88FE51C663E8400A6D590 /* PBXTargetDependency */,
+			);
+			name = pateluShoppingListUITests;
+			productName = pateluShoppingListUITests;
+			productReference = 79F88FE31C663E8400A6D590 /* pateluShoppingListUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		79F88FBC1C663E8400A6D590 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Urvi Patel";
+				TargetAttributes = {
+					79F88FC31C663E8400A6D590 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					79F88FD71C663E8400A6D590 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 79F88FC31C663E8400A6D590;
+					};
+					79F88FE21C663E8400A6D590 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 79F88FC31C663E8400A6D590;
+					};
+				};
+			};
+			buildConfigurationList = 79F88FBF1C663E8400A6D590 /* Build configuration list for PBXProject "pateluShoppingList" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 79F88FBB1C663E8400A6D590;
+			productRefGroup = 79F88FC51C663E8400A6D590 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				79F88FC31C663E8400A6D590 /* pateluShoppingList */,
+				79F88FD71C663E8400A6D590 /* pateluShoppingListTests */,
+				79F88FE21C663E8400A6D590 /* pateluShoppingListUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		79F88FC21C663E8400A6D590 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				79F88FD21C663E8400A6D590 /* LaunchScreen.storyboard in Resources */,
+				79F88FCF1C663E8400A6D590 /* Assets.xcassets in Resources */,
+				79F88FCD1C663E8400A6D590 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		79F88FD61C663E8400A6D590 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		79F88FE11C663E8400A6D590 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		79F88FC01C663E8400A6D590 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				79F88FCA1C663E8400A6D590 /* ViewController.swift in Sources */,
+				79F88FC81C663E8400A6D590 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		79F88FD41C663E8400A6D590 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				79F88FDD1C663E8400A6D590 /* pateluShoppingListTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		79F88FDF1C663E8400A6D590 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				79F88FE81C663E8400A6D590 /* pateluShoppingListUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		79F88FDA1C663E8400A6D590 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 79F88FC31C663E8400A6D590 /* pateluShoppingList */;
+			targetProxy = 79F88FD91C663E8400A6D590 /* PBXContainerItemProxy */;
+		};
+		79F88FE51C663E8400A6D590 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 79F88FC31C663E8400A6D590 /* pateluShoppingList */;
+			targetProxy = 79F88FE41C663E8400A6D590 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		79F88FCB1C663E8400A6D590 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				79F88FCC1C663E8400A6D590 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		79F88FD01C663E8400A6D590 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				79F88FD11C663E8400A6D590 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		79F88FEA1C663E8400A6D590 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		79F88FEB1C663E8400A6D590 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		79F88FED1C663E8400A6D590 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = pateluShoppingList/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = edu.depaul.csc471.pateluShoppingList;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		79F88FEE1C663E8400A6D590 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = pateluShoppingList/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = edu.depaul.csc471.pateluShoppingList;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		79F88FF01C663E8400A6D590 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = pateluShoppingListTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = edu.depaul.csc471.pateluShoppingListTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/pateluShoppingList.app/pateluShoppingList";
+			};
+			name = Debug;
+		};
+		79F88FF11C663E8400A6D590 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = pateluShoppingListTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = edu.depaul.csc471.pateluShoppingListTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/pateluShoppingList.app/pateluShoppingList";
+			};
+			name = Release;
+		};
+		79F88FF31C663E8400A6D590 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = pateluShoppingListUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = edu.depaul.csc471.pateluShoppingListUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = pateluShoppingList;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		79F88FF41C663E8400A6D590 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = pateluShoppingListUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = edu.depaul.csc471.pateluShoppingListUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = pateluShoppingList;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		79F88FBF1C663E8400A6D590 /* Build configuration list for PBXProject "pateluShoppingList" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				79F88FEA1C663E8400A6D590 /* Debug */,
+				79F88FEB1C663E8400A6D590 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		79F88FEC1C663E8400A6D590 /* Build configuration list for PBXNativeTarget "pateluShoppingList" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				79F88FED1C663E8400A6D590 /* Debug */,
+				79F88FEE1C663E8400A6D590 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		79F88FEF1C663E8400A6D590 /* Build configuration list for PBXNativeTarget "pateluShoppingListTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				79F88FF01C663E8400A6D590 /* Debug */,
+				79F88FF11C663E8400A6D590 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		79F88FF21C663E8400A6D590 /* Build configuration list for PBXNativeTarget "pateluShoppingListUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				79F88FF31C663E8400A6D590 /* Debug */,
+				79F88FF41C663E8400A6D590 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 79F88FBC1C663E8400A6D590 /* Project object */;
+}
