@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "pateluRemoteControl/ViewController.swift"
+            timestampString = "475893009.964954"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "56"
+            endingLineNumber = "56"
+            landmarkName = "ViewController"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "pateluRemoteControl.ViewController.isTyping.setter : Swift.Bool"
+                  moduleName = "pateluRemoteControl"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/urvipatel/Desktop/CSC471/Assignment_4/pateluRemoteControl/pateluRemoteControl/ViewController.swift"
+                  timestampString = "475894675.900904"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "19">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "pateluRemoteControl.ViewController.isTyping.materializeForSet : Swift.Bool"
+                  moduleName = "pateluRemoteControl"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/urvipatel/Desktop/CSC471/Assignment_4/pateluRemoteControl/pateluRemoteControl/ViewController.swift"
+                  timestampString = "475894675.901113"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "12">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "pateluRemoteControl.ViewController.init (pateluRemoteControl.ViewController.Type)(nibName : Swift.Optional&lt;Swift.String&gt;, bundle : Swift.Optional&lt;__ObjC.NSBundle&gt;) -&gt; pateluRemoteControl.ViewController"
+                  moduleName = "pateluRemoteControl"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/urvipatel/Desktop/CSC471/Assignment_4/pateluRemoteControl/pateluRemoteControl/ViewController.swift"
+                  timestampString = "475894675.901283"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "56"
+                  endingLineNumber = "56"
+                  offsetFromSymbolStart = "1219">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "pateluRemoteControl.ViewController.init (pateluRemoteControl.ViewController.Type)(coder : __ObjC.NSCoder) -&gt; Swift.Optional&lt;pateluRemoteControl.ViewController&gt;"
+                  moduleName = "pateluRemoteControl"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/urvipatel/Desktop/CSC471/Assignment_4/pateluRemoteControl/pateluRemoteControl/ViewController.swift"
+                  timestampString = "475894675.901457"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "56"
+                  endingLineNumber = "56"
+                  offsetFromSymbolStart = "1115">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "pateluRemoteControl/ViewController.swift"
+            timestampString = "475895344.275073"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "70"
+            endingLineNumber = "70"
+            landmarkName = "powerToggled(_:)"
+            landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "pateluRemoteControl/ViewController.swift"
+            timestampString = "475896882.687759"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "95"
+            endingLineNumber = "95"
+            landmarkName = "channelPressed(_:)"
+            landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
